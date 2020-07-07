@@ -1,58 +1,63 @@
-*{padding: 0 ; margin: 0 ;}
+* {
+    padding: 0;
+    margin: 0;
+}
 
 body {
-	min-height: 564px;
-	min-width: 1100px;
+    min-height: 564px;
+    min-width: 1100px;
     text-align: center;
     height: 100%;
     font-size: 100%;
-    position:absolute;
+    position: absolute;
     top: 0%;
-    bottom: 0%; 
-    right: 0%; 
+    bottom: 0%;
+    right: 0%;
     left: 0%;
 }
 
 #header {
-	position: absolute;
-	top: 0;
+    position: absolute;
+    top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-	width: 100%;
-	height: 6%;
-	font-size: 4vh;
-	padding-top: 1.3vmin;
+    width: 100%;
+    height: 6%;
+    font-size: 4vh;
+    padding-top: 1.3vmin;
 }
 
-.button, .buttonDisable {
-	position: relative;
-	padding: 0.5em 1em;
-  	border-radius: 0.2em; 
-  	overflow: visible;
-  	outline: none;
-	white-space: nowrap;
-  	-moz-background-clip: padding; 
+.button,
+.buttonDisable {
+    position: relative;
+    padding: 0.5em 1em;
+    border-radius: 0.2em;
+    overflow: visible;
+    outline: none;
+    white-space: nowrap;
+    -moz-background-clip: padding;
     background-clip: padding-box;
-	border: 1px solid #d4d4d4;
+    border: 1px solid #d4d4d4;
     margin: 0;
     text-align: center;
-	zoom: 1;
+    zoom: 1;
     *display: inline;
     text-decoration: none;
     display: inline-block;
-  }
+}
 
 .button {
     cursor: pointer;
 }
 
-#header, .button {
-	text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
-	border-color: #3072b3;
+#header,
+.button {
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+    border-color: #3072b3;
     border-bottom-color: #2a65a0;
-	color: #fff;
-	background-color: #3c8dde;
+    color: #fff;
+    background-color: #3c8dde;
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#599bdc), to(#3072b3));
     background-image: -moz-linear-gradient(#599bdc, #3072b3);
     background-image: -o-linear-gradient(#599bdc, #3072b3);
@@ -60,8 +65,8 @@ body {
 }
 
 .buttonDisable {
-   	text-shadow: 1px 1px 0 #fff;
-   	color: #999999;
+    text-shadow: 1px 1px 0 #fff;
+    color: #999999;
     background-color: #ececec;
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f4f4f4), to(#ececec));
     background-image: -moz-linear-gradient(#f4f4f4, #ececec);
@@ -70,7 +75,8 @@ body {
     background-image: linear-gradient(#f4f4f4, #ececec);
 }
 
-.buttonDisable, .button::-moz-focus-inner {
+.buttonDisable,
+.button::-moz-focus-inner {
     padding: 0;
     border: 0;
 }
@@ -86,9 +92,11 @@ body {
     background-color: transparent;
 }
 
-.inputDivision, .outputDivision, .executionDivision {
+.inputDivision,
+.outputDivision,
+.executionDivision {
     top: 11%;
-    height: 87%; 
+    height: 87%;
     position: absolute;
     border: 1px solid #CCC;
     border-radius: 5px;
@@ -110,7 +118,9 @@ body {
     width: 47%;
 }
 
-.inputDivisionTitle, .outputDivisionTitle, .executionDivisionTitle {
+.inputDivisionTitle,
+.outputDivisionTitle,
+.executionDivisionTitle {
     text-align: center;
     top: 0%;
     height: 9%;
@@ -122,64 +132,66 @@ body {
     border-top-left-radius: 5px;
 }
 
-.initializePic, .executionPic, .outputPic {
-	margin-left: 10%;
-	float: left;
-	height: 100%;
+.initializePic,
+.executionPic,
+.outputPic {
+    margin-left: 10%;
+    float: left;
+    height: 100%;
     background-repeat: no-repeat;
     background-color: transparent;
 }
 
 .initializePic {
-	margin-top: 1.5vh;
-	width: 20%;
-	background-image: url('../images/initIcon.png');
+    margin-top: 1.5vh;
+    width: 20%;
+    background-image: url('../images/initIcon.png');
 }
 
 .initializeText {
-	width: 60%;
-	float: left;
-	height: 100%;
-	padding-top: 1.8vmin; 
+    width: 60%;
+    float: left;
+    height: 100%;
+    padding-top: 1.8vmin;
 }
 
 .executionPic {
-	margin-top: 1vh;
-	width: 25%;
-	background-image: url('../images/pageIcon.png');
+    margin-top: 1vh;
+    width: 25%;
+    background-image: url('../images/pageIcon.png');
 }
 
 .executionText {
-	text-align: left;
-	width: 50%;
-	float: left;
-	height: 100%;
-	padding-top: 1.8vmin; 
+    text-align: left;
+    width: 50%;
+    float: left;
+    height: 100%;
+    padding-top: 1.8vmin;
 }
 
 .outputPic {
-	margin-top: 1.6vh;
-	width: 25%;
-	background-image: url('../images/outputIcon.png');
+    margin-top: 1.6vh;
+    width: 25%;
+    background-image: url('../images/outputIcon.png');
 }
 
 .outputText {
-	text-align: left;
-	width: 50%;
-	float: left;
-	height: 100%;
-	padding-top: 1.8vmin; 
+    text-align: left;
+    width: 50%;
+    float: left;
+    height: 100%;
+    padding-top: 1.8vmin;
 }
 
 .inputDivisionBody {
-	position: absolute;
-	top: 9%;
-	left: 0%;
-	width: 100%;
-	height: 91%;
-	text-align: center;
-	font-size: 1em;
-	border-top: 1px solid #CCC;
+    position: absolute;
+    top: 9%;
+    left: 0%;
+    width: 100%;
+    height: 91%;
+    text-align: center;
+    font-size: 1em;
+    border-top: 1px solid #CCC;
 }
 
 .textField {
@@ -203,10 +215,10 @@ body {
 }
 
 .okButton {
-	font-size: 13px;
-	float: left;
-	margin-top: 20px;
-	margin-left: 10%;
+    font-size: 13px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10%;
     height: 30px;
     width: 81%;
 }
@@ -219,7 +231,7 @@ body {
 }
 
 .nextButton {
-    margin-left: 14px; 
+    margin-left: 14px;
     height: 30px;
     width: 37%;
     float: center;
@@ -242,7 +254,9 @@ body {
     border-top: 1px solid #CCC;
 }
 
-.pillarFirst, .pillarSecond, .pillarThird {
+.pillarFirst,
+.pillarSecond,
+.pillarThird {
     position: absolute;
     left: 0%;
     top: 0%;
@@ -266,7 +280,7 @@ body {
     position: absolute;
     width: 100%;
     height: 5%;
-    top:80%;
+    top: 80%;
     left: 0%;
     background-color: #3072b3;
 }
@@ -275,12 +289,17 @@ body {
     position: absolute;
     width: 8%;
     height: 50%;
-    top:30%;
+    top: 30%;
     left: 46%;
     background-color: #3072b3;
 }
 
-.disk1, .disk2, .disk3, .disk4, .disk5 {
+.disk1,
+.disk2,
+.disk3,
+.disk4,
+.disk5,
+.disk6 {
     position: absolute;
     height: 5%;
     border-radius: 7px;
@@ -288,24 +307,28 @@ body {
     width: 80%;
 }
 
-.position1{
+.position1 {
     top: 75%;
 }
 
-.position2{
+.position2 {
     top: 70%;
 }
 
-.position3{
+.position3 {
     top: 65%;
 }
 
-.position4{
+.position4 {
     top: 60%;
 }
 
-.position5{
+.position5 {
     top: 55%;
+}
+
+.position6 {
+    top: 50%;
 }
 
 .disk1 {
@@ -338,6 +361,12 @@ body {
     background-color: #ADA692;
 }
 
+.disc6 {
+    left: 35%;
+    width: 30%;
+    background-color: #2a65a0;
+}
+
 .stepExecutionDisplay {
     padding-left: 2%;
     overflow-x: auto;
@@ -352,7 +381,7 @@ body {
 }
 
 .hide {
-	display: none;
+    display: none;
 }
 
 .showDivInRed {
@@ -361,7 +390,7 @@ body {
 }
 
 .show {
-	display: block;
+    display: block;
 }
 
 .codeLayout {
@@ -370,13 +399,13 @@ body {
 }
 
 .local {
-	position: absolute;
-	top: 80%;
-	left: 10%;
-	font-size: 120%;
-	font-weight: bold;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    font-size: 120%;
+    font-weight: bold;
 }
 
 .a {
-	float: right;
+    float: right;
 }
